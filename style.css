@@ -1,0 +1,56 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+a{
+    color: white;
+}
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+}
+.titulo{
+    background-color: black;
+    color: white;
+
+    text-align: center;
+}
+.titulo > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+.titulo > p{
+    padding-bottom: 50px;
+}
+a:hover{
+    text-decoration: underline;  
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+.normal{
+    background-color: white;
+    color: black;
+}
+.imagem{
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+.imagem > p{
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.37);
+}
+.rodape{
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+.rodape > p{
+    padding: 10px;
+}
